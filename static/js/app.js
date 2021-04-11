@@ -52,7 +52,7 @@ function runEnter() {
   // delete all data from table
   d3.selectAll("td").remove();
 
-  // append rows for input provided
+  // append rows for input value provided
   filteredData.forEach((ufo) => {
     var row = tbody.append("tr");
     Object.values(ufo).forEach((value) => {
